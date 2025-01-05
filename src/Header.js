@@ -7,7 +7,7 @@ export default function Header(props) {
   //   background-color: 'silver'
   // }
   return (
-    <div className="header">
+    <div class="header">
        <h1 style={{color:'blue'}}>Online Store [{props.name} {props.age}]</h1> 
        <p style={{backgroundColor:'silver'}}>
                 <Link to="/main">Home</Link> | <Link to="/cart">Cart</Link> |<Link to="/admin">Admin</Link> |<Link to="/login">Login</Link>
@@ -16,3 +16,4 @@ export default function Header(props) {
         </div>
   )
 }
+//use props parameter name,age

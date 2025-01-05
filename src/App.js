@@ -37,3 +37,5 @@ export default function App() {
 // <header/> calling header components control will go header.js
 // 
 // */
+
+//use props parameter name,age
