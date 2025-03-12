@@ -1,7 +1,7 @@
 import React, { createContext,useState } from 'react'
-import Child1 from './Child1';
+import Child1 from ''./Child1'
 
-export const a = createContext();
+export const a = createContext()
 
 export default function App5() {
     const [user,setUser] = useState("Monali"); // user - variable
@@ -15,10 +15,10 @@ export default function App5() {
         {user}
         <button onClick={handleSubmit}>Submit</button>
         <hr></hr>
-        <Child1/> 
+        <Child1 /> 
     </a.Provider>
   )
-}
+};
 //App.js - parent component is <a.provider>
 // <child1> - child component 
 //<a.provider >- user value assign in the parent component in user usestate variable [user] accesseable inside child1 also can have multiple component
