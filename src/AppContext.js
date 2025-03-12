@@ -1,21 +1,25 @@
-const { useContext, createContext } = require("react");
+// const { useContext, createContext } = require("react");
 
-class Context{
+// class Context{
 
-    name = ''
+//     // name = ''
 
-    getName(){
-        return this.name;
-    }
+//     cart = []
 
-    setName(n){
-        this.name = n
-    }
+//     // email = ''
 
-}
+//     getName(){
+//         return this.name;
+//     }
 
-const ctx = new Context()
+//     setName(n){
+//         this.name = n
+//     }
 
-const AppContext = createContext(ctx)
+// }
 
-module.exports = AppContext;
+// const ctx = new Context()
+
+// const AppContext = createContext(ctx)
+
+// module.exports = AppContext;
